@@ -61,7 +61,7 @@ block.addEventListener('click', (e) => {
           newinput.value = textContent;
           const yesedit = document.createElement('button');
           yesedit.textContent = "Изменить";
-          document.body.append(newinput);
+          document.body.append(newinput);  // я обожаю жаренный плов
           document.body.appendChild(yesedit);
     
           yesedit.addEventListener('click', (r) => {
