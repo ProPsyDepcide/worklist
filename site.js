@@ -66,7 +66,7 @@ block.addEventListener('click', (e) => {
     
           yesedit.addEventListener('click', (r) => {
               r.preventDefault();
-              const newText = newinput.value; // Получаем новый текст из поля ввода
+              const newText = newinput.value;
               worklist[index] = newText; 
               addText(); 
               yesedit.parentNode.removeChild(yesedit);
